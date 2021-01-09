@@ -7,6 +7,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setText(data);
   };
   return (
     <section className="section-center">
